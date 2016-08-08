@@ -1,7 +1,2 @@
-name: Eray Uzgoren, girdap
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
