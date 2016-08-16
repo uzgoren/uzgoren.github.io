@@ -3,28 +3,50 @@
 	<head>
 		<title>{{ page.title }} </title>
 <link rel="stylesheet" type="text/css" href="/css/main.css">
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 	</head>
 	<body>
-		<nav>
+		<nav style="border-bottom:1px solid #ddd;">
     		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
+        		<li><a href="/index.html">Home</a></li>
+        		<li><a href="/research.html">Research</a></li>
+        		<li><a href="/projects.html">Projects</a></li>
     		</ul>
 		</nav>
 		<div class="container">
+		  <table>
+		    <tr>
+		      <td style='min-width:240px; max-width: 600px; vertical-align:top; text-align:justify; '>
+			{{ content }} 
+		      </td>
 
-                {{ content }} 
+		      <td width='300px' style='vertical-align:top;padding-top: 50px;'> 
+			<div style="line-height:1.8em; text-align:center; ">
+			  <b>Eray Uzgoren</b>
+			  <BR>Assoc. Prof. Dr.
+			  <BR>
+			  Mechanical Engineering Program<BR>METU, NCC<BR><BR>
+			  <a href="http://orcid.org/0000-0003-0546-0252">ORCID</a><br>
+			  <a href="https://scholar.google.com/citations?user=363hKBcAAAAJ&hl=en">Profile @ Google Scholar</a>	<br>
+			  <a href="https://www.facebook.com/euzgoren/">Follow on Facebook</a>	<br>
+			  
+			  
+			  Middle East Technical University<br>
+			  Northern Cyprus Campus<BR>Kalkanli, Guzelyurt, TRNC, 10, Mersin, Turkey<BR><BR>
+			  email: <a href="mailto:uzgoren@metu.edu.tr">uzgoren@metu.edu.tr</a><br>
+			  Phone: +90 (392) 661 2925<BR>
+			  Fax:   +90 (392) 661 2999<BR>
 
 
+	</div>
+</td>
+</tr>
+</table>		      
 
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        		<li><a href="">email</a></li>
-        		<li><a href="">github.com/</a></li>
+        		<li><a href="mailto:uzgoren(at)gmail.com">email</a></li>
+        		<li><a href="https://github.com/uzgoren/girdap/">github.com/</a></li>
 			</ul>
 		</footer>
 	</body>

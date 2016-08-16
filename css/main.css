@@ -14,19 +14,24 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #c63;
 }
+
+img { margin: 5px 20px; border:1px solid #aaa;}
+
+    
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.0em;
+    line-height: 1.3em;
     color: #333;
+    text-indent:1.5em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -35,10 +40,18 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
+li {
+    line-height: 1.3em;
 }
 
