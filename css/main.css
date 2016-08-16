@@ -63,11 +63,18 @@ li {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:600px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
-
+    table {width:100%;}
+    thead {display: none;}
+    tbody td {display: block;  text-align:center;}
+    tbody td:before { 
+	content: attr(data-th); 
+	display: block;
+	text-align:center;  
+    }
 }
 
 table {
