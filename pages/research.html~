@@ -1,0 +1,61 @@
+<div style='margin:5px 10px; margin-top:40px'>
+<h1>Research</h1>
+<p style="font-size:14px;line-height:1.4em; color:red;margin-bottom:5px;">My research goal is to <i><b>develop state-of-the-art numerical models to cope with engineering problems involving fluid flows and heat transfer</b></i>.</p>
+<p style="font-size:13px;line-height:1.4em">Currently, I am working on object-oriented multi-physics solver with autonomous grid generation and adaptive mesh refinement capabilities. The solver relies on finite volume method based differential operators and error estimation technique. The advection scheme capable of preserving discontinuities (typical for level set method) is unique to the adaptive mesh refinement technique. The project is part of a EU-FP7 project (cart3Dadapt) and can be downloaded at <a href='https://github.com/uzgoren/girdap'>girdap</a>.</p>
+<p style="font-size:14px; font-weight:bold; margin-top:10px;margin-bottom:0px;">Background</p>
+<ul style="font-size:13px;line-height:1.2em; margin-top:2px;">
+	<li style="line-height:1.2em; margin-bottom:5px;"><u>Computational fluid dynamics</u>: During my PhD and during my post-doc periods, I contributed to the development of an in-house CFD code to simulate incompressible moving boundary problems. The code was written in Fortran with adaptive Cartesian mesh refinement capabilities. The numerical method used was fractional step method. My specific contributions are 
+	<ul style="font-size:12px;line-height:1.4em">
+	<li>Transition from colocated to staggered arrangement</li>
+	<li>Implementation of geometric multigrid solver on adaptively refined grids</li>
+	<li>Handling complex solid interfaces within Cartesian grids</li>
+	<li>Some example sase studies: Flow over a cylinder, liquid plug propagation in lungs, Liquid-sloshing in micro-gravity condtions, binary drop collisions, breaking dam, etc.</li>
+	<li>Influence of high property jumps on convergence rate of pressure equation</li>
+	</ul> </li>
+<li style="line-height:1.2em; margin-bottom:5px;"><u>High performance computing</u>: During my PhD, I developed a partitioning strategy for adaptively refined Cartesian grids using space filling curves (Hilbert curve) that would optimize load-balancing with minimum communication overhead. The parallel algorithm was implemented using MPI. We found that using multigrid with additive Schwarz domain decomposition method produced reasonable speed-ups for upto 32 processors. </li>
+	
+	<li style="line-height:1.2em; margin-bottom:5px;"><u>Thermal-fluid systems </u>: At METU NCC, I supervised M.Sc. students (in Sustainable Environment and Energy Systems program) in various applications for renewable energy systems. These include following focus:
+	<ul style="font-size:12px;line-height:1.4em; margin-top:4px;">
+	<li style="line-height:1.2em; margin-bottom:5px;">Solar Organic Rankine cycles 
+	<ul style="font-size:12px;line-height:1.4em">
+	<li>Finite volume based transient ORC models</li>
+	<li>Moving boundary based steady state ORC design and rating</li>
+	<li>Control strategies for ORC cycles
+	<li>Pareto-front optimization of off-design conditions of ORCs</li>
+	<li>Transient parabolic trough model using closed form solutions</li>
+	<li>Solar resource characterization based on random variables</li>
+	<li>Evaluation of wet and dry cooling options</li>
+	<li>Wet cooling design and rating models</li>
+	<li>Evaluation of refrigerant properties using look-up tables</li>
+	</ul></li>
+	<li style="line-height:1.2em; margin-bottom:5px;">Ground source heat pumps
+	<ul style="font-size:12px;line-height:1.4em">
+	<li>CFD based solutions of coupled pipe-flow and semi-infinite heat transfer medium using OpenFOAM</li>
+	<li>Reduced ordered modeling of ground loop heat exchanger using line source theory</li>
+	<li>Arrangement optimization of vertical ground heat exchangers</li>
+	<li>Building load estimation using OpenStudio</li>
+	</ul></li>
+	<li style="line-height:1.2em; margin-bottom:5px;">Solar vortex generator
+	<ul style="font-size:12px;line-height:1.4em">
+	<li>CFD model for a solar vortex generator</li>
+	<li>Characterization of geometric parameters</li>
+	</ul></li>
+	</ul></li>
+	<li style="line-height:1.2em; margin-bottom:5px;"><u>Optimization and feasibility</u>:
+		<ul style="font-size:12px;line-height:1.4em">
+		<li>Optimal path for a solar power unmanned air vehicle</li>
+		<li>Photovoltaic Power Plant Design Considering Multiple Uncertainties and Risk</li>
+		</ul></li>
+	</li>
+
+</ul>
+<h2>Research Funds</h2>
+<ol style="font-size:14px;line-height:1.4em">
+	<li>Marie Curie IRG grant (FP7-PEOPLE-2010-RG), Marker-based, 3-D Adaptive Cartesian Grid Method for Multiphase Flow around Irregular Geometries, 2012-2016, euros 100K.
+	<li>Campus Research Fund, Principal Investigator, Developments of Computational Fluid Dynamics Software, 2013-2014, 25K TL.
+	<li>Campus Research Fund, Principal Investigator, Comparison of Dry and wet Cooling: An Applied Research on a Solar Thermal Power plant, 2011-2012.
+	<li>Campus Research Fund, Principal Investigator, Modeling, Performance Evaluation of an Organic Rankine Cycle (ORC) Unit with R245FA as the working Fluid, 2011-2012.
+	<li>Campus Research Fund, Principal Investigator, Computations of Multiphase Flows on Adaptively Refined Cartesian Grids, 2010-2012, 23K TL.
+</ol>
+</h2>
+</div>
