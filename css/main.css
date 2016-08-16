@@ -55,3 +55,17 @@ li {
     line-height: 1.3em;
 }
 
+
+@media(max-width:991px) {
+    .client-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+}
