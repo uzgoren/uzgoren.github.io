@@ -94,7 +94,7 @@ li {
 
 
 table { 
-    width: 760px; 
+    width: 100%; 
     border-collapse: collapse;
     float:center;
 }
